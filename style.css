@@ -28,6 +28,11 @@ body{
 .wrapper .content{
     margin: 25px 25px 35px;
 }
+.content .typing-input{
+    opacity: 0;
+    z-index: -999;
+    position: absolute;
+}
 .content .inputs{
     display: flex;
     flex-wrap: wrap;
@@ -43,6 +48,7 @@ body{
     text-align: center;
     background: none;
     border-radius: 5px;
+    text-transform: uppercase;
     border: 1px solid #b5b5b5;
 }
 .inputs input:first-child{
