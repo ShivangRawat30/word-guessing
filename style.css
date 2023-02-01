@@ -99,11 +99,12 @@ body{
     padding: 15px 0;
     background: #1bb295;
     border-radius: 5px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 .reset-btn{
     transition: 0.7s ease-in-out;
 }
 .reset-btn:hover{
-    color: black;
+    color: rgb(232, 230, 230);
+    background: #189179;
 }
